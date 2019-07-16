@@ -3,7 +3,7 @@ const sinon = require( 'sinon' );
 describe( 'index.js', () => {
   let spy;
 
-  beforeEach( () => {
+  beforeEach(() => {
     spy = sinon.spy( console, 'log' );
   } );
 
